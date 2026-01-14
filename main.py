@@ -24,8 +24,10 @@ pn = st.navigation(
     }
 )
 
+# Stuff to share with all pages
+st.logo('./assets/logo.png')
+st.sidebar.markdown("Thank you for comming to my Ted Talk!")
 
 # --- Running Navigation ---
 pn.run()
 
-## assignment, create or find dataset with these labels. 
